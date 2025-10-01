@@ -1,0 +1,15 @@
+HW4 Detailed Run Log
+Date: 01-Oct-2025 21:35:32
+
+---- Part 4.1: Wiener restoration ----
+Part4.1 metrics (per-channel and overall):
+Wiener restore: PSNR ch [4.70 4.59 4.60], overall=4.63 dB, SSIM=0.0050, MSE=0.344301
+
+---- Part 4.2: Projection & FBP ----
+Part4.2 metrics:
+FBP recon: MSE=0.022662, PSNR=16.45 dB, SSIM=0.1823
+
+---- Part 4.3: Laplacian sharpening ----
+Part4.3 metrics:
+Sharpen: MSE(RGB)=0.002106 MSE(HSV)=0.001628 | PSNR(RGB)=26.77 PSNR(HSV)=27.88 | SSIM(RGB)=0.8780 SSIM(HSV)=0.8980
+
